@@ -1,0 +1,94 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+552[label="i0: 552",style=filled,color=lightblue]
+552->888[weight=8]
+888[label="i1: 888",style=filled,color=lightblue]
+888->1392[weight=8]
+786769->888
+1392[label="i2: 1392",style=filled,color=lightblue]
+1392->2328[weight=8]
+2328[label="i3: 2328",style=filled,color=lightblue]
+2328->3552[weight=8]
+1962->2328
+3552[label="i4: 3552",style=filled,color=lightblue]
+3552->6024[weight=8]
+6024[label="i5: 6024",style=filled,color=lightblue]
+6024->9096[weight=8]
+9096[label="i6: 9096",style=filled,color=lightblue]
+9096->13704[weight=8]
+13704[label="i7: 13704",style=filled,color=lightblue]
+13704->20616[weight=8]
+20616[label="i8: 20616",style=filled,color=lightblue]
+20616->30984[weight=8]
+30984[label="i9: 30984",style=filled,color=lightblue]
+30984->46536[weight=8]
+18912->30984
+21268->18912
+46536[label="i10: 46536",style=filled,color=lightblue]
+46536->86904[weight=8]
+86904[label="i11: 86904",style=filled,color=lightblue]
+86904->165816[weight=8]
+50856->86904
+165816[label="i12: 165816",style=filled,color=lightblue]
+165816->367704[weight=8]
+367704[label="i13: 367704",style=filled,color=lightblue]
+367704->628356[weight=8]
+471652->367704
+943298->471652
+628356[label="i14: 628356",style=filled,color=lightblue]
+628356->837836[weight=8]
+411228->628356
+819244->628356
+901076->819244
+837836[label="i15: 837836",style=filled,color=lightblue]
+837836->628384[weight=8]
+877456->837836
+991796->877456
+628384[label="i16: 628384",style=filled,color=lightblue]
+628384->630356[weight=8]
+718136->628384
+630356[label="i17: 630356",style=filled,color=lightblue]
+630356->491884[weight=8]
+652828->630356
+491884[label="i18: 491884",style=filled,color=lightblue]
+491884->368920[weight=8]
+348564->491884
+555932->491884
+571850->491884
+714790->571850
+772948->714790
+883352->772948
+977128->883352
+828530->714790
+953044->714790
+368920[label="i19: 368920",style=filled,color=lightblue]
+368920->499400[weight=8]
+268280->368920
+499400[label="i20: 499400",style=filled,color=lightblue]
+499400->772840[weight=8]
+998794->499400
+772840[label="i21: 772840",style=filled,color=lightblue]
+772840->978650[weight=8]
+978650[label="i22: 978650",style=filled,color=lightblue]
+978650->975652[weight=8]
+974350->978650
+975652[label="i23: 975652",style=filled,color=lightblue]
+975652->744248[weight=8]
+744248[label="i24: 744248",style=filled,color=lightblue]
+744248->696712[weight=8]
+850552->744248
+696712[label="i25: 696712",style=filled,color=lightblue]
+696712->628628[weight=8]
+525680->696712
+628628[label="i26: 628628",style=filled,color=lightblue]
+628628->857836[weight=8]
+843682->628628
+692510->843682
+919646->843682
+857836[label="i27: 857836",style=filled,color=lightblue]
+857836->857892[weight=8]
+857892[label="i28: 857892",style=filled,color=lightblue]
+label="Family for seq=552, 60 sequences < 1000000 listed"
+}
