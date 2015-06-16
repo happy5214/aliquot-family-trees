@@ -1,0 +1,77 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+1476[label="i0: 1476",style=filled,color=lightblue]
+1476->2346[weight=8]
+2346[label="i1: 2346",style=filled,color=lightblue]
+2346->2838[weight=8]
+2334->2346
+2838[label="i2: 2838",style=filled,color=lightblue]
+2838->3498[weight=8]
+3498[label="i3: 3498",style=filled,color=lightblue]
+3498->4278[weight=8]
+2886->3498
+2010->2886
+2874->2886
+4278[label="i4: 4278",style=filled,color=lightblue]
+4278->4938[weight=8]
+4938[label="i5: 4938",style=filled,color=lightblue]
+4938->4950[weight=8]
+3942->4938
+4134->4938
+4926->4938
+4950[label="i6: 4950",style=filled,color=lightblue]
+4950->9558[weight=8]
+9558[label="i7: 9558",style=filled,color=lightblue]
+9558->12222[weight=8]
+12222[label="i8: 12222",style=filled,color=lightblue]
+12222->18354[weight=8]
+18354[label="i9: 18354",style=filled,color=lightblue]
+18354->27726[weight=8]
+27726[label="i10: 27726",style=filled,color=lightblue]
+27726->27738[weight=8]
+27738[label="i11: 27738",style=filled,color=lightblue]
+27738->35910[weight=8]
+17190->27738
+19998->27738
+19986->19998
+19974->19986
+11130->19974
+21402->27738
+23742->27738
+35910[label="i12: 35910",style=filled,color=lightblue]
+35910->79290[weight=8]
+79290[label="i13: 79290",style=filled,color=lightblue]
+79290->127098[weight=8]
+63918->79290
+63906->63918
+127098[label="i14: 127098",style=filled,color=lightblue]
+127098->161190[weight=8]
+86346->127098
+86334->86346
+67074->86334
+67062->67074
+81474->86334
+81462->81474
+86322->86334
+161190[label="i15: 161190",style=filled,color=lightblue]
+161190->274410[weight=8]
+80730->161190
+60138->80730
+31590->60138
+44694->60138
+65598->80730
+50946->65598
+56706->65598
+62178->65598
+161178->161190
+139542->161178
+161166->161178
+274410[label="i16: 274410",style=filled,color=lightblue]
+274410->439290[weight=8]
+439290[label="i17: 439290",style=filled,color=lightblue]
+439290->732870[weight=8]
+732870[label="i18: 732870",style=filled,color=lightblue]
+label="Family for seq=1476, 53 sequences < 1000000 listed"
+}
