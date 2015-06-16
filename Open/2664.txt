@@ -1,0 +1,90 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+2664[label="i0: 2664",style=filled,color=lightblue]
+2664->4746[weight=8]
+4746[label="i1: 4746",style=filled,color=lightblue]
+4746->6198[weight=8]
+3894->4746
+3306->3894
+3882->3894
+6198[label="i2: 6198",style=filled,color=lightblue]
+6198->6210[weight=8]
+5226->6198
+6186->6198
+6210[label="i3: 6210",style=filled,color=lightblue]
+6210->11070[weight=8]
+11070[label="i4: 11070",style=filled,color=lightblue]
+11070->19170[weight=8]
+19170[label="i5: 19170",style=filled,color=lightblue]
+19170->32670[weight=8]
+16398->19170
+11682->16398
+16386->16398
+12342->16386
+16374->16386
+32670[label="i6: 32670",style=filled,color=lightblue]
+32670->63090[weight=8]
+32658->32670
+30318->32658
+30306->30318
+30846->32658
+32646->32658
+63090[label="i7: 63090",style=filled,color=lightblue]
+63090->101178[weight=8]
+63078->63090
+101178[label="i8: 101178",style=filled,color=lightblue]
+101178->175878[weight=8]
+59112->101178
+34488->59112
+18312->34488
+10488->18312
+73854->101178
+49650->73854
+49638->49650
+175878[label="i9: 175878",style=filled,color=lightblue]
+175878->215082[weight=8]
+143802->175878
+74052->143802
+43884->74052
+32892->43884
+267289->32892
+89730->143802
+76878->89730
+56034->76878
+56022->56034
+52266->56022
+38454->52266
+62802->76878
+36648->62802
+65862->76878
+175866->175878
+215082[label="i10: 215082",style=filled,color=lightblue]
+215082->332118[weight=8]
+332118[label="i11: 332118",style=filled,color=lightblue]
+332118->387510[weight=8]
+207018->332118
+159426->207018
+104292->159426
+207006->207018
+161634->207006
+206994->207006
+332106->332118
+387510[label="i12: 387510",style=filled,color=lightblue]
+387510->542586[weight=8]
+307638->387510
+542586[label="i13: 542586",style=filled,color=lightblue]
+542586->641382[weight=8]
+423054->542586
+423042->423054
+362574->423042
+362562->362574
+378318->423042
+641382[label="i14: 641382",style=filled,color=lightblue]
+641382->824730[weight=8]
+824730[label="i15: 824730",style=filled,color=lightblue]
+442470->824730
+824718->824730
+label="Family for seq=2664, 69 sequences < 1000000 listed"
+}
