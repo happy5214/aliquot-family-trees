@@ -6,7 +6,7 @@ use Math::Prime::Util qw(is_prime);
 # Command-line parameters
 my $min = shift;
 my $max = shift;
-my $display_unknowns = shift // 'display';
+my $verbose = shift;
 
 # Counter declarations
 my $primes = 0;
@@ -15,13 +15,24 @@ my @unknowns = ();
 my $known = 0;
 
 # Loop
-for ( $min .. $max ) {
-	if ( is_prime( $_ ) ) {
-		print "$_ is prime.\n";
-		$primes++;
-	} else {
-		push @unknowns, $_ if ( system( "./findseq.sh $_" ) >> 8 );
-		$composites++;
+if ( $verbose ) {
+	for ( $min .. $max ) {
+		if ( is_prime( $_ ) ) {
+			print "$_ is prime.\n";
+			$primes++;
+		} else {
+			push @unknowns, $_ if ( system( "./findseq.sh $_" ) >> 8 );
+			$composites++;
+		}
+	}
+} else {
+	for ( $min .. $max ) {
+		if ( is_prime( $_ ) ) {
+			$primes++;
+		} else {
+			push @unknowns, $_ if ( system( "./findseq.sh $_ > /dev/null" ) >> 8 );
+			$composites++;
+		}
 	}
 }
 
@@ -33,7 +44,7 @@ $known = $composites - $unknown;
 print "$known known.\n";
 
 # Unknowns
-if ( $display_unknowns ) {
+if ( $verbose ) {
 	print "$unknown unknown:\n";
 	for my $num (@unknowns) {
 		print "$num ";
