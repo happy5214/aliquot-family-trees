@@ -1,0 +1,74 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+58248[label="i0: 58248",style=filled,color=lightblue]
+58248->99702[weight=8]
+99702[label="i1: 99702",style=filled,color=lightblue]
+99702->124938[weight=8]
+124938[label="i2: 124938",style=filled,color=lightblue]
+124938->170838[weight=8]
+69750->124938
+91278->124938
+101106->124938
+170838[label="i3: 170838",style=filled,color=lightblue]
+170838->199350[weight=8]
+199350[label="i4: 199350",style=filled,color=lightblue]
+199350->337446[weight=8]
+199338->199350
+172614->199338
+183126->199338
+118314->183126
+118302->118314
+106818->118302
+113826->118302
+337446[label="i5: 337446",style=filled,color=lightblue]
+337446->419046[weight=8]
+289206->337446
+337434->337446
+262374->337434
+256794->262374
+210006->256794
+256782->256794
+337422->337434
+419046[label="i6: 419046",style=filled,color=lightblue]
+419046->425562[weight=8]
+391674->419046
+425562[label="i7: 425562",style=filled,color=lightblue]
+425562->470598[weight=8]
+330918->425562
+199962->330918
+470598[label="i8: 470598",style=filled,color=lightblue]
+470598->494058[weight=8]
+365946->470598
+355974->365946
+267834->355974
+407706->470598
+225108->407706
+95940->225108
+449178->470598
+449166->449178
+494058[label="i9: 494058",style=filled,color=lightblue]
+494058->509622[weight=8]
+509622[label="i10: 509622",style=filled,color=lightblue]
+509622->518010[weight=8]
+320970->509622
+518010[label="i11: 518010",style=filled,color=lightblue]
+518010->767622[weight=8]
+414558->518010
+334242->414558
+273222->334242
+355302->414558
+259098->355302
+767622[label="i12: 767622",style=filled,color=lightblue]
+767622->817530[weight=8]
+735738->767622
+676614->735738
+527706->676614
+441054->527706
+452286->527706
+371394->452286
+720966->735738
+817530[label="i13: 817530",style=filled,color=lightblue]
+label="Family for seq=58248, 55 sequences < 1000000 listed"
+}

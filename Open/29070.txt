@@ -1,0 +1,85 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+29070[label="i0: 29070",style=filled,color=lightblue]
+29070->55170[weight=8]
+55170[label="i1: 55170",style=filled,color=lightblue]
+55170->88506[weight=8]
+88506[label="i2: 88506",style=filled,color=lightblue]
+88506->127494[weight=8]
+59550->88506
+59538->59550
+127494[label="i3: 127494",style=filled,color=lightblue]
+127494->158550[weight=8]
+127482->127494
+158550[label="i4: 158550",style=filled,color=lightblue]
+158550->293802[weight=8]
+107562->158550
+158538->158550
+154662->158538
+88410->154662
+146298->154662
+119682->146298
+65448->119682
+293802[label="i5: 293802",style=filled,color=lightblue]
+293802->319638[weight=8]
+217686->293802
+184074->217686
+143094->184074
+137706->143094
+90390->137706
+124374->137706
+166326->184074
+184062->184074
+319638[label="i6: 319638",style=filled,color=lightblue]
+319638->406122[weight=8]
+406122[label="i7: 406122",style=filled,color=lightblue]
+406122->414678[weight=8]
+340374->406122
+397398->406122
+414678[label="i8: 414678",style=filled,color=lightblue]
+414678->513834[weight=8]
+513834[label="i9: 513834",style=filled,color=lightblue]
+513834->513846[weight=8]
+513846[label="i10: 513846",style=filled,color=lightblue]
+513846->599526[weight=8]
+336276->513846
+422154->513846
+248670->422154
+248658->248670
+193326->248658
+213102->248658
+161298->213102
+161286->161298
+161274->161286
+237102->248658
+330486->422154
+223050->330486
+159270->223050
+236010->330486
+230982->236010
+298794->330486
+314634->330486
+330474->330486
+270126->330474
+220914->270126
+295494->330474
+599526[label="i11: 599526",style=filled,color=lightblue]
+599526->768594[weight=8]
+467514->599526
+768594[label="i12: 768594",style=filled,color=lightblue]
+768594->768606[weight=8]
+618246->768594
+768606[label="i13: 768606",style=filled,color=lightblue]
+768606->798258[weight=8]
+631074->768606
+798258[label="i14: 798258",style=filled,color=lightblue]
+798258->807918[weight=8]
+789342->798258
+807918[label="i15: 807918",style=filled,color=lightblue]
+807918->902010[weight=8]
+794802->807918
+902010[label="i16: 902010",style=filled,color=lightblue]
+label="Family for seq=29070, 63 sequences < 1000000 listed"
+}

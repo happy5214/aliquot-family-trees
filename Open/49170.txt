@@ -1,0 +1,75 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+49170[label="i0: 49170",style=filled,color=lightblue]
+49170->80430[weight=8]
+80430[label="i1: 80430",style=filled,color=lightblue]
+80430->140754[weight=8]
+140754[label="i2: 140754",style=filled,color=lightblue]
+140754->140766[weight=8]
+140766[label="i3: 140766",style=filled,color=lightblue]
+140766->150834[weight=8]
+115074->140766
+77742->115074
+131874->140766
+131862->131874
+150834[label="i4: 150834",style=filled,color=lightblue]
+150834->164238[weight=8]
+164238[label="i5: 164238",style=filled,color=lightblue]
+164238->175218[weight=8]
+142194->164238
+158898->164238
+123462->158898
+175218[label="i6: 175218",style=filled,color=lightblue]
+175218->213582[weight=8]
+166926->175218
+170526->175218
+162114->170526
+162102->162114
+175206->175218
+213582[label="i7: 213582",style=filled,color=lightblue]
+213582->213594[weight=8]
+213594[label="i8: 213594",style=filled,color=lightblue]
+213594->219174[weight=8]
+219174[label="i9: 219174",style=filled,color=lightblue]
+219174->219186[weight=8]
+170394->219174
+179226->219174
+117252->179226
+212826->219174
+219162->219174
+137670->219162
+137658->137670
+219186[label="i10: 219186",style=filled,color=lightblue]
+219186->331182[weight=8]
+331182[label="i11: 331182",style=filled,color=lightblue]
+331182->404898[weight=8]
+256338->331182
+172950->256338
+137514->172950
+102726->137514
+208854->256338
+208842->208854
+164406->208842
+404898[label="i12: 404898",style=filled,color=lightblue]
+404898->502302[weight=8]
+404886->404898
+272490->404886
+272478->272490
+342474->404886
+342462->342474
+502302[label="i13: 502302",style=filled,color=lightblue]
+502302->502314[weight=8]
+502314[label="i14: 502314",style=filled,color=lightblue]
+502314->502326[weight=8]
+493014->502314
+502326[label="i15: 502326",style=filled,color=lightblue]
+502326->733194[weight=8]
+340074->502326
+262242->340074
+273006->340074
+733194[label="i16: 733194",style=filled,color=lightblue]
+495150->733194
+label="Family for seq=49170, 53 sequences < 1000000 listed"
+}

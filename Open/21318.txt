@@ -1,0 +1,88 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+21318[label="i0: 21318",style=filled,color=lightblue]
+21318->30522[weight=8]
+30522[label="i1: 30522",style=filled,color=lightblue]
+30522->30534[weight=8]
+30534[label="i2: 30534",style=filled,color=lightblue]
+30534->39354[weight=8]
+39354[label="i3: 39354",style=filled,color=lightblue]
+39354->50694[weight=8]
+50694[label="i4: 50694",style=filled,color=lightblue]
+50694->73722[weight=8]
+50682->50694
+73722[label="i5: 73722",style=filled,color=lightblue]
+73722->87270[weight=8]
+87270[label="i6: 87270",style=filled,color=lightblue]
+87270->122250[weight=8]
+87258->87270
+122250[label="i7: 122250",style=filled,color=lightblue]
+122250->184758[weight=8]
+184758[label="i8: 184758",style=filled,color=lightblue]
+184758->250698[weight=8]
+250698[label="i9: 250698",style=filled,color=lightblue]
+250698->339126[weight=8]
+241782->250698
+339126[label="i10: 339126",style=filled,color=lightblue]
+339126->362874[weight=8]
+339114->339126
+362874[label="i11: 362874",style=filled,color=lightblue]
+362874->368934[weight=8]
+300906->362874
+257886->300906
+200754->257886
+165222->200754
+104346->165222
+89406->104346
+60354->89406
+71766->89406
+71754->71766
+55734->71754
+49674->55734
+35430->49674
+35418->35430
+47094->49674
+104334->104346
+85266->104334
+104322->104334
+200742->200754
+179418->200742
+257874->257886
+368934[label="i12: 368934",style=filled,color=lightblue]
+368934->412554[weight=8]
+295002->368934
+206118->295002
+206106->206118
+168534->206106
+130986->168534
+168522->168534
+130998->168522
+193254->206106
+243198->295002
+138690->243198
+208422->243198
+178614->208422
+243186->243198
+243174->243186
+368922->368934
+412554[label="i13: 412554",style=filled,color=lightblue]
+412554->441366[weight=8]
+441366[label="i14: 441366",style=filled,color=lightblue]
+441366->441378[weight=8]
+441378[label="i15: 441378",style=filled,color=lightblue]
+441378->696798[weight=8]
+249390->441378
+696798[label="i16: 696798",style=filled,color=lightblue]
+696798->812970[weight=8]
+482562->696798
+388638->482562
+510642->696798
+597222->696798
+256410->597222
+696786->696798
+470550->696786
+812970[label="i17: 812970",style=filled,color=lightblue]
+label="Family for seq=21318, 65 sequences < 1000000 listed"
+}

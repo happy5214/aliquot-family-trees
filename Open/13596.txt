@@ -1,0 +1,67 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+13596[label="i0: 13596",style=filled,color=lightblue]
+13596->21348[weight=8]
+21348[label="i1: 21348",style=filled,color=lightblue]
+21348->32706[weight=8]
+32706[label="i2: 32706",style=filled,color=lightblue]
+32706->42174[weight=8]
+32694->32706
+42174[label="i3: 42174",style=filled,color=lightblue]
+42174->61506[weight=8]
+42162->42174
+39246->42162
+26418->39246
+33606->39246
+22554->33606
+61506[label="i4: 61506",style=filled,color=lightblue]
+61506->85374[weight=8]
+52686->61506
+52674->52686
+85374[label="i5: 85374",style=filled,color=lightblue]
+85374->123714[weight=8]
+123714[label="i6: 123714",style=filled,color=lightblue]
+123714->164286[weight=8]
+164286[label="i7: 164286",style=filled,color=lightblue]
+164286->191706[weight=8]
+191706[label="i8: 191706",style=filled,color=lightblue]
+191706->197094[weight=8]
+197094[label="i9: 197094",style=filled,color=lightblue]
+197094->202074[weight=8]
+127386->197094
+79470->127386
+140730->197094
+202074[label="i10: 202074",style=filled,color=lightblue]
+202074->202086[weight=8]
+202086[label="i11: 202086",style=filled,color=lightblue]
+202086->244074[weight=8]
+244074[label="i12: 244074",style=filled,color=lightblue]
+244074->270006[weight=8]
+170646->244074
+170634->170646
+270006[label="i13: 270006",style=filled,color=lightblue]
+270006->319242[weight=8]
+192810->270006
+319242[label="i14: 319242",style=filled,color=lightblue]
+319242->477942[weight=8]
+212982->319242
+141834->212982
+477942[label="i15: 477942",style=filled,color=lightblue]
+477942->477954[weight=8]
+371658->477942
+470058->477942
+470046->470058
+477954[label="i16: 477954",style=filled,color=lightblue]
+477954->610686[weight=8]
+610686[label="i17: 610686",style=filled,color=lightblue]
+610686->783234[weight=8]
+783234[label="i18: 783234",style=filled,color=lightblue]
+783234->947898[weight=8]
+947898[label="i19: 947898",style=filled,color=lightblue]
+592290->947898
+592278->592290
+592266->592278
+label="Family for seq=13596, 42 sequences < 1000000 listed"
+}

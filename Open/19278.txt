@@ -1,0 +1,72 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+19278[label="i0: 19278",style=filled,color=lightblue]
+19278->32994[weight=8]
+32994[label="i1: 32994",style=filled,color=lightblue]
+32994->47646[weight=8]
+47646[label="i2: 47646",style=filled,color=lightblue]
+47646->55626[weight=8]
+36594->47646
+40806->47646
+55626[label="i3: 55626",style=filled,color=lightblue]
+55626->58038[weight=8]
+58038[label="i4: 58038",style=filled,color=lightblue]
+58038->65082[weight=8]
+32970->58038
+50154->58038
+54858->58038
+50982->54858
+65082[label="i5: 65082",style=filled,color=lightblue]
+65082->65094[weight=8]
+65094[label="i6: 65094",style=filled,color=lightblue]
+65094->72186[weight=8]
+72186[label="i7: 72186",style=filled,color=lightblue]
+72186->75558[weight=8]
+75558[label="i8: 75558",style=filled,color=lightblue]
+75558->100914[weight=8]
+100914[label="i9: 100914",style=filled,color=lightblue]
+100914->122526[weight=8]
+78414->100914
+122526[label="i10: 122526",style=filled,color=lightblue]
+122526->149874[weight=8]
+149874[label="i11: 149874",style=filled,color=lightblue]
+149874->149886[weight=8]
+149862->149874
+149886[label="i12: 149886",style=filled,color=lightblue]
+149886->204858[weight=8]
+87624->149886
+113668->87624
+204858[label="i13: 204858",style=filled,color=lightblue]
+204858->263142[weight=8]
+124614->204858
+66330->124614
+204846->204858
+263142[label="i14: 263142",style=filled,color=lightblue]
+263142->376218[weight=8]
+376218[label="i15: 376218",style=filled,color=lightblue]
+376218->459942[weight=8]
+253950->376218
+253938->253950
+277182->376218
+376206->376218
+300834->376206
+459942[label="i16: 459942",style=filled,color=lightblue]
+459942->618330[weight=8]
+445818->459942
+318390->445818
+284682->318390
+193110->284682
+193098->193110
+312042->318390
+438918->445818
+376182->438918
+618330[label="i17: 618330",style=filled,color=lightblue]
+618330->865734[weight=8]
+865734[label="i18: 865734",style=filled,color=lightblue]
+865734->865746[weight=8]
+783066->865734
+865746[label="i19: 865746",style=filled,color=lightblue]
+label="Family for seq=19278, 47 sequences < 1000000 listed"
+}

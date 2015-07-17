@@ -1,0 +1,80 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+10650[label="i0: 10650",style=filled,color=lightblue]
+10650->16134[weight=8]
+16134[label="i1: 16134",style=filled,color=lightblue]
+16134->16146[weight=8]
+14874->16134
+14862->14874
+16122->16134
+16146[label="i2: 16146",style=filled,color=lightblue]
+16146->24174[weight=8]
+24174[label="i3: 24174",style=filled,color=lightblue]
+24174->31986[weight=8]
+24162->24174
+11550->24162
+31986[label="i4: 31986",style=filled,color=lightblue]
+31986->37356[weight=8]
+37356[label="i5: 37356",style=filled,color=lightblue]
+37356->58068[weight=8]
+27996->37356
+47596->37356
+58068[label="i6: 58068",style=filled,color=lightblue]
+58068->88806[weight=8]
+88806[label="i7: 88806",style=filled,color=lightblue]
+88806->103218[weight=8]
+103218[label="i8: 103218",style=filled,color=lightblue]
+103218->103230[weight=8]
+103230[label="i9: 103230",style=filled,color=lightblue]
+103230->181314[weight=8]
+181314[label="i10: 181314",style=filled,color=lightblue]
+181314->267966[weight=8]
+267966[label="i11: 267966",style=filled,color=lightblue]
+267966->312666[weight=8]
+312666[label="i12: 312666",style=filled,color=lightblue]
+312666->348966[weight=8]
+207750->312666
+348966[label="i13: 348966",style=filled,color=lightblue]
+348966->407166[weight=8]
+407166[label="i14: 407166",style=filled,color=lightblue]
+407166->418434[weight=8]
+418434[label="i15: 418434",style=filled,color=lightblue]
+418434->418446[weight=8]
+378366->418434
+270210->378366
+342114->378366
+368994->378366
+372354->378366
+280182->372354
+336774->372354
+218106->336774
+179694->218106
+179682->179694
+365646->372354
+372342->372354
+266058->372342
+366378->372342
+354966->366378
+300234->354966
+354954->354966
+378354->378366
+418422->418434
+300426->418422
+300414->300426
+214530->300414
+214518->214530
+243906->300414
+164550->243906
+111258->164550
+111246->111258
+79410->111246
+56670->79410
+100434->111246
+111234->111246
+418446[label="i16: 418446",style=filled,color=lightblue]
+418446->683298[weight=8]
+683298[label="i17: 683298",style=filled,color=lightblue]
+label="Family for seq=10650, 57 sequences < 1000000 listed"
+}
