@@ -1,0 +1,11 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+115461->51329
+71442->115461
+234655->51329
+758945->234655
+710719->51329
+label="Family for seq=51329, 5 sequences < 1000000 listed"
+}
