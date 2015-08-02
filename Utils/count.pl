@@ -34,7 +34,7 @@ sub cycles {
 # Open sequence merge counter
 sub opens {
 	my $count = 0;
-	my @files = glob( "../Open/*.txt" );
+	my @files = glob( '../Open/*/*.txt' );
 	for my $file (@files) {
 		no warnings 'numeric';
 		my $lines = `grep -c -P \"\\-\\>\" \"$file\" 2>/dev/null`;
