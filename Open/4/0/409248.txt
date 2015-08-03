@@ -1,0 +1,11 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+409248[label="i0: 409248",style=filled,color=lightblue]
+409248->991242[weight=8]
+991242[label="i1: 991242",style=filled,color=lightblue]
+810918->991242
+810906->810918
+label="Family for seq=409248, 4 sequences < 1000000 listed"
+}

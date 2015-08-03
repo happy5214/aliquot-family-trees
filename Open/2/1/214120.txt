@@ -1,0 +1,73 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+214120[label="i0: 214120",style=filled,color=lightblue]
+214120->281600[weight=8]
+281600[label="i1: 281600",style=filled,color=lightblue]
+281600->479884[weight=8]
+479884[label="i2: 479884",style=filled,color=lightblue]
+479884->359920[weight=8]
+618836->479884
+767290->618836
+889430->767290
+959762->479884
+359920[label="i3: 359920",style=filled,color=lightblue]
+359920->555200[weight=8]
+365504->359920
+366224->359920
+371416->366224
+276584->371416
+553162->276584
+665510->553162
+691430->553162
+869198->553162
+898358->553162
+943718->553162
+495212->371416
+371388->495212
+732442->366224
+555200[label="i4: 555200",style=filled,color=lightblue]
+555200->814876[weight=8]
+814876[label="i5: 814876",style=filled,color=lightblue]
+814876->622532[weight=8]
+869168->814876
+939044->814876
+622532[label="i6: 622532",style=filled,color=lightblue]
+622532->478204[weight=8]
+478204[label="i7: 478204",style=filled,color=lightblue]
+478204->358660[weight=8]
+348132->478204
+525932->478204
+394428->525932
+626396->478204
+358660[label="i8: 358660",style=filled,color=lightblue]
+358660->407420[weight=8]
+407420[label="i9: 407420",style=filled,color=lightblue]
+407420->514564[weight=8]
+514564[label="i10: 514564",style=filled,color=lightblue]
+514564->391880[weight=8]
+391880[label="i11: 391880",style=filled,color=lightblue]
+391880->507760[weight=8]
+300760->391880
+273380->300760
+601514->300760
+842086->601514
+507760[label="i12: 507760",style=filled,color=lightblue]
+507760->782336[weight=8]
+266000->507760
+782336[label="i13: 782336",style=filled,color=lightblue]
+782336->790336[weight=8]
+872716->782336
+793340->872716
+790336[label="i14: 790336",style=filled,color=lightblue]
+790336->814436[weight=8]
+814436[label="i15: 814436",style=filled,color=lightblue]
+814436->999964[weight=8]
+624988->814436
+446180->624988
+559232->624988
+564452->624988
+999964[label="i16: 999964",style=filled,color=lightblue]
+label="Family for seq=214120, 51 sequences < 1000000 listed"
+}

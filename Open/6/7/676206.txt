@@ -1,0 +1,17 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+676206[label="i0: 676206",style=filled,color=lightblue]
+676206->788946[weight=8]
+788946[label="i1: 788946",style=filled,color=lightblue]
+788946->857838[weight=8]
+788934->788946
+857838[label="i2: 857838",style=filled,color=lightblue]
+857838->857850[weight=8]
+749202->857838
+767346->857838
+817458->857838
+857850[label="i3: 857850",style=filled,color=lightblue]
+label="Family for seq=676206, 8 sequences < 1000000 listed"
+}
