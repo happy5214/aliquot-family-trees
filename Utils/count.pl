@@ -9,7 +9,7 @@ my $cycles = 0;
 # Prime-terminating counter
 sub primes {
 	my $count = 0;
-	my @files = glob( '../Primes/*/*.txt' );
+	my @files = glob( '../Primes/*/*/*/*.txt' );
 	for my $file (@files) {
 		no warnings 'numeric';
 		my $lines = `/usr/bin/wc -l \"$file\" 2>/dev/null`;
