@@ -1,0 +1,7 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+814107->426469
+label="Family for seq=426469, 1 sequences < 1000000 listed"
+}
