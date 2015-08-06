@@ -16,7 +16,7 @@ The data files are in GraphViz format, and are named as follows:
 
 * #.txt (sequences terminating at this prime or perfect number)
 * #.txt (sequences merging into the open sequence starting at this number)
-* #_#.txt (sequences merging into the amicable pair made up of these numbers)
+* #.txt (sequences merging into the cycle with this as its lowest number)
 
 Utility scripts
 ---------------
