@@ -1,0 +1,7 @@
+There are...
+
+       660870 sequences terminating at primes,
+       6039 sequences terminating at perfect numbers,
+       7824 sequences terminating at aliquot cycles,
+       89790 sequences merging into open sequences, and
+       764523 total sequences represented in this dataset.
