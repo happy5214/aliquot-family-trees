@@ -49,6 +49,7 @@ if ( $verbose ) {
 	for my $num (@unknowns) {
 		print "$num ";
 	}
+	print "\n";
 } else {
 	print "$unknown unknown.\n";
 }
