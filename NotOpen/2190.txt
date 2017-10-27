@@ -1,0 +1,97 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+2190[label="i0: 2190",style=filled,color=lightblue]
+2190->3138[weight=8]
+3138[label="i1: 3138",style=filled,color=lightblue]
+3138->3150[weight=8]
+2622->3138
+3126->3138
+3150[label="i2: 3150",style=filled,color=lightblue]
+3150->6522[weight=8]
+6522[label="i3: 6522",style=filled,color=lightblue]
+6522->6534[weight=8]
+5238->6522
+2952->5238
+6534[label="i4: 6534",style=filled,color=lightblue]
+6534->9426[weight=8]
+9426[label="i5: 9426",style=filled,color=lightblue]
+9426->9438[weight=8]
+6174->9426
+9438[label="i6: 9438",style=filled,color=lightblue]
+9438->12906[weight=8]
+6690->9438
+7266->9438
+8034->9438
+8322->9438
+8418->9438
+12906[label="i7: 12906",style=filled,color=lightblue]
+12906->15894[weight=8]
+8388->12906
+15894[label="i8: 15894",style=filled,color=lightblue]
+15894->18582[weight=8]
+15882->15894
+18582[label="i9: 18582",style=filled,color=lightblue]
+18582->20778[weight=8]
+20778[label="i10: 20778",style=filled,color=lightblue]
+20778->20790[weight=8]
+16086->20778
+16902->20778
+17862->20778
+19158->20778
+14826->19158
+16458->19158
+9750->16458
+14118->16458
+7770->14118
+14106->14118
+11814->14106
+15222->16458
+8970->15222
+6318->8970
+6306->6318
+4068->6306
+5214->6306
+6294->6306
+8958->8970
+7458->8958
+16446->16458
+19146->19158
+17574->19146
+17562->17574
+19398->20778
+20766->20778
+20790[label="i11: 20790",style=filled,color=lightblue]
+20790->48330[weight=8]
+48330[label="i12: 48330",style=filled,color=lightblue]
+48330->81270[weight=8]
+48318->48330
+81270[label="i13: 81270",style=filled,color=lightblue]
+81270->172170[weight=8]
+172170[label="i14: 172170",style=filled,color=lightblue]
+172170->275706[weight=8]
+132498->172170
+275706[label="i15: 275706",style=filled,color=lightblue]
+275706->370836[weight=8]
+236286->275706
+275694->275706
+370836[label="i16: 370836",style=filled,color=lightblue]
+370836->566646[weight=8]
+317826->370836
+566646[label="i17: 566646",style=filled,color=lightblue]
+566646->566658[weight=8]
+566634->566646
+566658[label="i18: 566658",style=filled,color=lightblue]
+566658->661140[weight=8]
+661140[label="i19: 661140",style=filled,color=lightblue]
+343500->661140
+257604->343500
+174828->257604
+264100->343500
+182780->264100
+448564->343500
+598076->448564
+897122->448564
+label="Family for seq=2190, 72 sequences < 1000000 listed"
+}
