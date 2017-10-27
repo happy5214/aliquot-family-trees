@@ -6,17 +6,19 @@ Data
 
 This dataset is a repository of aliquot family trees. The data here comprise
 the terminations and merges of sequences that do not go above 1,000,000. It is
-sorted into four folders based on termination/merge type: Cycles, Open,
-Perfect, and Primes. Due to size limits, Open and Primes are further sorted
-based on prime or sequence start number into a tree of subfolders. Open has
-two sublevels and Primes has three, splitting the files into groups of
+sorted into five folders based on termination/merge type: Cycles, NotOpen,
+Open, Perfect, and Primes. Due to size limits, Open and Primes are further
+sorted based on prime or sequence start number into a tree of subfolders. Open
+has two sublevels and Primes has three, splitting the files into groups of
 ten-thousands or thousands, respectively.
 
-The data files are in GraphViz format, and are named as follows:
+The data files are in GraphViz format, and are named in the form "#.txt",
+where "#" is:
 
-* #.txt (sequences terminating at this prime or perfect number)
-* #.txt (sequences merging into the open sequence starting at this number)
-* #.txt (sequences merging into the cycle with this as its lowest number)
+* # is prime or a perfect number: sequences terminating at this number
+* # is the start of an open sequence: sequences merging into this sequence
+* # is in a cycle: sequences merging into this cycle (# is the lowest number)
+* #.txt is in NotOpen: branch of a closed sequence starting at this number
 
 Utility scripts
 ---------------

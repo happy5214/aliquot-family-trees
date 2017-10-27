@@ -3,6 +3,7 @@
 # Counter declarations
 my $primes = 0;
 my $open = 0;
+my $notopen = 0;
 my $perfect = 0;
 my $cycles = 0;
 
@@ -33,8 +34,9 @@ sub cycles {
 
 # Open sequence merge counter
 sub opens {
+	my $folder = shift;
 	my $count = 0;
-	my @files = glob( '../Open/*/*/*.txt' );
+	my @files = glob( "../$folder/*.txt" );
 	for my $file (@files) {
 		no warnings 'numeric';
 		my $lines = `grep -c -P \"\\-\\>\" \"$file\" 2>/dev/null`;
@@ -47,16 +49,18 @@ sub opens {
 $primes = primes();
 $perfect = cycles( 'Perfect' );
 $cycles = cycles( 'Cycles' );
-$open = opens();
+$open = opens( 'Open/*/*' );
+$notopen = opens( 'NotOpen' );
 
-my $total = $primes + $perfect + $cycles + $open;
+my $total = $primes + $perfect + $cycles + $open + $notopen;
 
 # Display
 print "There are...\n
        $primes sequences terminating at primes,
        $perfect sequences terminating at perfect numbers,
        $cycles sequences terminating at aliquot cycles,
-       $open sequences merging into open sequences, and
+       $open sequences merging into open sequences,
+       $notopen sequences terminating after exceeding the dataset limit, and
        $total total sequences represented in this dataset.\n";
 
 exit 0;
