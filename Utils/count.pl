@@ -7,6 +7,8 @@ my $notopen = 0;
 my $perfect = 0;
 my $cycles = 0;
 
+my $part = shift // 'all';
+
 # Prime-terminating counter
 sub primes {
 	my $count = 0;
@@ -46,11 +48,11 @@ sub opens {
 }
 
 # Calculate
-$primes = primes();
-$perfect = cycles( 'Perfect' );
-$cycles = cycles( 'Cycles' );
-$open = opens( 'Open/*/*' );
-$notopen = opens( 'NotOpen' );
+$primes = primes() if $part eq 'primes' || $part eq 'all';
+$perfect = cycles( 'Perfect' ) if $part eq 'perfect' || $part eq 'all';
+$cycles = cycles( 'Cycles' ) if $part eq 'cycles' || $part eq 'all';
+$open = opens( 'Open/*/*' ) if $part eq 'open' || $part eq 'all';
+$notopen = opens( 'NotOpen' ) if $part eq 'notopen' || $part eq 'all';
 
 my $total = $primes + $perfect + $cycles + $open + $notopen;
 
