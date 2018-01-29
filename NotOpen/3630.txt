@@ -1,0 +1,77 @@
+digraph G {
+ranksep=.2
+nodesep=.1
+splines=true
+3630[label="i0: 3630",style=filled,color=lightblue]
+3630->5946[weight=8]
+5946[label="i1: 5946",style=filled,color=lightblue]
+5946->5958[weight=8]
+5958[label="i2: 5958",style=filled,color=lightblue]
+5958->6990[weight=8]
+6990[label="i3: 6990",style=filled,color=lightblue]
+6990->9858[weight=8]
+6978->6990
+9858[label="i4: 9858",style=filled,color=lightblue]
+9858->10878[weight=8]
+10878[label="i5: 10878",style=filled,color=lightblue]
+10878->15114[weight=8]
+8802->10878
+10866->10878
+7710->10866
+6402->7710
+6882->7710
+7698->7710
+4392->7698
+15114[label="i6: 15114",style=filled,color=lightblue]
+15114->18006[weight=8]
+18006[label="i7: 18006",style=filled,color=lightblue]
+18006->18018[weight=8]
+14634->18006
+11502->14634
+14622->14634
+11298->14622
+16554->18006
+17994->18006
+18018[label="i8: 18018",style=filled,color=lightblue]
+18018->34398[weight=8]
+8190->18018
+34398[label="i9: 34398",style=filled,color=lightblue]
+34398->61362[weight=8]
+61362[label="i10: 61362",style=filled,color=lightblue]
+61362->90894[weight=8]
+90894[label="i11: 90894",style=filled,color=lightblue]
+90894->90906[weight=8]
+87954->90894
+68334->87954
+84846->87954
+87942->87954
+68058->87942
+90906[label="i12: 90906",style=filled,color=lightblue]
+90906->93894[weight=8]
+77886->90906
+77874->77886
+93894[label="i13: 93894",style=filled,color=lightblue]
+93894->93906[weight=8]
+70266->93894
+93882->93894
+93906[label="i14: 93906",style=filled,color=lightblue]
+93906->124974[weight=8]
+124974[label="i15: 124974",style=filled,color=lightblue]
+124974->153018[weight=8]
+153018[label="i16: 153018",style=filled,color=lightblue]
+153018->178560[weight=8]
+95490->153018
+95478->95490
+103446->153018
+56610->103446
+56598->56610
+54282->56598
+56586->56598
+70794->103446
+103434->103446
+178560[label="i17: 178560",style=filled,color=lightblue]
+178560->457920[weight=8]
+457920[label="i18: 457920",style=filled,color=lightblue]
+177120->457920
+label="Family for seq=3630, 53 sequences < 1000000 listed"
+}
