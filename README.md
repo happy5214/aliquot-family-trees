@@ -12,13 +12,13 @@ sorted based on prime or sequence start number into a tree of subfolders. Open
 has two sublevels and Primes has three, splitting the files into groups of
 ten-thousands or thousands, respectively.
 
-The data files are in GraphViz format, and are named in the form "#.txt",
-where "#" is:
+The data files are in GraphViz format, and are named in the form "\#.txt",
+where "\#" is:
 
-* # is prime or a perfect number: sequences terminating at this number
-* # is the start of an open sequence: sequences merging into this sequence
-* # is in a cycle: sequences merging into this cycle (# is the lowest number)
-* #.txt is in NotOpen: branch of a closed sequence starting at this number
+* \# is prime or a perfect number: sequences terminating at this number
+* \# is the start of an open sequence: sequences merging into this sequence
+* \# is in a cycle: sequences merging into this cycle (# is the lowest number)
+* \#.txt is in NotOpen: branch of a closed sequence starting at this number
 
 Utility scripts
 ---------------
