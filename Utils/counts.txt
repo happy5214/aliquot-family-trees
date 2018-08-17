@@ -4,5 +4,5 @@ There are...
        6039 sequences terminating at perfect numbers,
        7824 sequences terminating at aliquot cycles,
        89790 sequences merging into open sequences,
-       20817 sequences terminating after exceeding the dataset limit, and
-       785340 total sequences represented in this dataset.
+       21607 sequences terminating after exceeding the dataset limit, and
+       786130 total sequences represented in this dataset.
