@@ -42,7 +42,6 @@ terms of the license can be found in the duplicated COPYING and LICENSE files.
 Basically, you can do whatever you want with this data. I wouldn't mind
 attribution, but it's obviously not required.
 
-If you have questions, contact me on the Mersenne Forum (Happy5214) or by
-email (happy5214 <at> gmail <dot> com).
+If you have questions, contact me on the Mersenne Forum (Happy5214).
 
 Enjoy!
